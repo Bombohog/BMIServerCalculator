@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="255.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.Client">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Client" />
+      <Label layoutX="14.0" layoutY="38.0" text="Weight in pounds:" />
+      <Label layoutX="75.0" layoutY="72.0" text="Inches:" />
+      <Label layoutX="86.0" layoutY="106.0" text="Feet:" />
+      <TextField fx:id="clientWeight" layoutX="119.0" layoutY="34.0" />
+      <TextField fx:id="clientInches" layoutX="119.0" layoutY="68.0" />
+      <TextField fx:id="clientFeet" layoutX="119.0" layoutY="102.0" />
+      <Label layoutX="14.0" layoutY="87.0" text="Height ------|">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="clientTextArea" layoutX="14.0" layoutY="134.0" prefHeight="110.0" prefWidth="336.0" />
+      <Button layoutX="283.0" layoutY="68.0" mnemonicParsing="false" onAction="#submitData" prefWidth="54.0" text="Submit" />
+   </children>
+</AnchorPane>

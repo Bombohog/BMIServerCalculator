@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.Server">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Server" />
+      <TextArea fx:id="serverTextArea" editable="false" layoutX="14.0" layoutY="31.0" prefHeight="360.0" prefWidth="570.0" />
+   </children>
+</AnchorPane>
