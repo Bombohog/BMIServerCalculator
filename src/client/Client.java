@@ -18,7 +18,7 @@ public class Client extends Application {
     @Override
     public void start(Stage clientStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("client.fxml"));
-        clientStage.setTitle("Hello World");
+        clientStage.setTitle("BMI Client");
         clientStage.setScene(new Scene(root, 360, 275));
         clientStage.show();
     }
