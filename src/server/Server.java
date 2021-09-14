@@ -23,7 +23,7 @@ public class Server extends Application {
     @Override
     public void start(Stage clientStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("server.fxml"));
-        clientStage.setTitle("Hello World");
+        clientStage.setTitle("BMI Server");
         clientStage.setScene(new Scene(root, 600, 410));
         clientStage.show();
     }
